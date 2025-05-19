@@ -3,50 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vida no Campo</title>
+  <title>Agrinho 2025 - Sustentabilidade</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Vida no Campo e Sustentabilidade</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
-        <li><a href="alimentacao.html">Alimentação Saudável</a></li>
-        <li><a href="curiosidades.html">Curiosidades</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="container header-content">
+      <img src="img/agrinho.jpg" alt="Logo Agrinho 2025" class="logo">
+      <div>
+        <h1>Agrinho 2025</h1>
+        <p>Sustentabilidade no Campo e na Cidade</p>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section class="banner">
-      <h2>Bem-vindo ao mundo do campo!</h2>
-      <p>Descubra como a vida rural está conectada à sustentabilidade e à alimentação saudável.</p>
+  <main class="container">
+    <section class="intro">
+      <h2>Sobre o Projeto</h2>
+      <p>Este projeto tem como objetivo promover a consciência ambiental, destacando a importância da sustentabilidade tanto no meio rural quanto no urbano.</p>
+      <img src="img/sustentabilidade" class="main-image">
     </section>
 
-    <section class="galeria">
-      <h3>Galeria do Campo</h3>
-      <div class="imagens">
-        <img src="img/fazenda1.jpg" alt="Fazenda" />
-        <img src="img/plantacao.jpg" alt="Plantação" />
-        <img src="img/animais.jpg" alt="Animais" />
-      </div>
-    </section>
+    <section class="cards">
+      <article class="card">
+        <img src="img/campo" alt="Campo sustentável">
+        <h3>Campo Sustentável</h3>
+        <p>Práticas agrícolas conscientes, uso racional da água, preservação do solo e respeito à biodiversidade.</p>
+      </article>
 
-    <section class="formulario">
-      <h3>Deixe sua opinião</h3>
-      <form>
-        <input type="text" name="nome" placeholder="Seu nome" required />
-        <textarea name="mensagem" placeholder="Sua opinião" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <article class="card">
+        <img src="img/cidade" alt="Cidade sustentável">
+        <h3>Cidade Sustentável</h3>
+        <p>Mobilidade urbana, reciclagem, energia limpa e educação ambiental fazem parte do futuro urbano verde.</p>
+      </article>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 - Projeto Agrinho</p>
+  <footer class="footer">
+    <p>Desenvolvido por Lorena Muniz | Colégio Humberto de Alencar Castelo Branco | Agrinho 2025</p>
   </footer>
-  <script src="script.js"></script>
 </body>
 </html>
